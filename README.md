@@ -97,3 +97,6 @@ Each product includes variants by color, storage, and RAM configuration. Run `bu
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Drizzle ORM Documentation](https://orm.drizzle.team)
 - [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
+- [Next.js Agent Docs](https://nextjs.org/docs) (local: `node_modules/next/dist/docs/`)
+- [ExplainX Drizzle Skill](https://explainx.ai/skills/lobehub/lobehub/drizzle)
+- [Nothing Design Skill](https://github.com/dominikmartn/nothing-design-skill)
