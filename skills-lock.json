@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "drizzle": {
+      "source": "lobehub/lobehub",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/drizzle/SKILL.md",
+      "computedHash": "73499d3e0cac01188c6b062e57a7ef7233e549b401d6f06093633bd0d0f2207f"
+    }
+  }
+}
