@@ -2,6 +2,16 @@
 
 A Nothing-brand e-commerce store built with [Next.js](https://nextjs.org) — a React framework that provides file-based routing, React Server Components, server actions, and API routes out of the box. Next.js was chosen for its hybrid rendering model (server-side by default, with client islands where needed), built-in image and font optimization, and its ability to serve as both the frontend and a lightweight API layer, eliminating the need for a separate backend server for this project's scope.
 
+## AI-Assisted Development
+
+This project was developed with AI agent assistance. The following resources guided the agent:
+
+- **[Next.js Agent Docs](https://nextjs.org/docs)** (local: `node_modules/next/dist/docs/`) — provides the agent with up-to-date Next.js API conventions and breaking changes for this version.
+- **[ExplainX Drizzle Skill](https://explainx.ai/skills/lobehub/lobehub/drizzle)** — an agent skill for Drizzle ORM schema definitions, queries, and PostgreSQL patterns.
+- **[Nothing Design Skill](https://github.com/dominikmartn/nothing-design-skill)** — an agent skill that applies Nothing's dot-matrix typography, glyph icons, and minimal black-and-white design system to the UI.
+
+The `AGENTS.md` file at the project root configures the agent's behavior, and the `.opencode/skills/` directory houses additional skill definitions.
+
 ## Tech Stack
 
 - **Framework:** Next.js 16 (canary)
