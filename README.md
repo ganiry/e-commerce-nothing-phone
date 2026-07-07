@@ -33,6 +33,9 @@ The `AGENTS.md` file at the project root configures the agent's behavior, and th
 # Install dependencies
 bun install
 
+# Build native bindings for better-sqlite3 (required before build)
+npm rebuild better-sqlite3
+
 # Copy environment variables (defaults are fine for local dev)
 cp .env.example .env   # if .env doesn't exist
 ```
@@ -40,11 +43,10 @@ cp .env.example .env   # if .env doesn't exist
 ### Database
 
 ```bash
-# Generate and apply migrations
-bun db:generate
-bun db:migrate
+# Push schema to database (creates tables)
+bun db:push
 
-# Seed the database with products
+# Seed the database with products (required before build)
 bun db:seed
 
 # (Optional) Open Drizzle Studio to browse data
